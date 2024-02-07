@@ -1,5 +1,5 @@
 import React from 'react';
-import { useData } from './DataContext';
+import { useData } from './DataContext'
 
 const Form = () => {
   const { addFormData } = useData();
